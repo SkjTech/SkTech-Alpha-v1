@@ -1,0 +1,9 @@
+/* Horizontal divider */
+#hr {
+  position: absolute;
+  border-top: solid white 1px;
+  width: 100%;
+  left: 0px;
+  padding: 0;
+  margin: 0;
+}

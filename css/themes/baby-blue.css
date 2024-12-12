@@ -1,0 +1,46 @@
+/* Baby Blue Theme */
+.babyBlueMode {
+  background-color: #e6f3ff;
+  color: #2c5282;
+}
+
+.babyBlueMode .settings-section {
+  background: #f0f8ff;
+  border: 1px solid #bde0fe;
+}
+
+.babyBlueMode #hr {
+  border-color: #bde0fe;
+}
+
+.babyBlueMode #theme-select {
+  background: #f0f8ff;
+  color: #2c5282;
+  border-color: #bde0fe;
+}
+
+.babyBlueMode #theme-select:disabled {
+  background: #e6f3ff;
+  color: #4a7ab8;
+  border-color: #bde0fe;
+}
+
+.babyBlueMode #mainIco {
+  filter: invert(32%) sepia(29%) saturate(1096%) hue-rotate(182deg) brightness(94%) contrast(89%);
+}
+
+.babyBlueMode nav a:hover {
+  color: #90cdf4;
+}
+
+.babyBlueMode .slider {
+  background-color: #bde0fe;
+}
+
+.babyBlueMode input:checked + .slider {
+  background-color: #90cdf4;
+}
+
+.babyBlueMode h1, .babyBlueMode h2 {
+  color: #2b6cb0;
+}

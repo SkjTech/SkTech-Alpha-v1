@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SkTech | Settings</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="./img/Computer-980x980.png">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/settings.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="./img/Computer-980x980.png" type="image/png" width="75px" />
+      <h1>Settings</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <p>|</p>
+        <a href="settings.html">Settings</a>
+      </nav>
+    </header>
+    <div id="hr"></div>
+    <main>
+      <div class="settings-container">
+        <div class="settings-section">
+          <h2>Theme Settings</h2>
+          <div class="setting-item">
+            <label for="theme-select">Choose Theme:</label>
+            <select id="theme-select">
+              <option value="light">Light Mode</option>
+              <option value="dark">Dark Mode</option>
+              <option value="dark-purple">Dark Purple</option>
+              <option value="baby-blue">Baby Blue</option>
+            </select>
+          </div>
+          <div class="setting-item">
+            <label class="switch">
+              <input type="checkbox" id="auto-dark-mode" />
+              <span class="slider round"></span>
+            </label>
+            <span>System Preference</span>
+          </div>
+        </div>
+        
+        <div class="settings-section">
+          <h2>Tab Disguise</h2>
+          <div class="setting-item">
+            <label for="disguise-select">Choose Disguise:</label>
+            <select id="disguise-select">
+              <option value="none">None</option>
+              <option value="clever">Clever</option>
+              <option value="classroom">Google Classroom</option>
+              <option value="about-blank">About:Blank</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="settings-section">
+          <h2>Panic Key</h2>
+          <div class="setting-item">
+            <div class="panic-key-container">
+              <input type="text" id="panic-key-input" class="panic-key-input" placeholder="Click to set key combination" readonly />
+              <div id="panic-key-display" class="panic-key-display">No key combination set</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Aric Jones &middot;</p>
+      <a href="mailto:sktech.outlook.com">Contact</a>
+    </footer>
+  </body>
+</html>

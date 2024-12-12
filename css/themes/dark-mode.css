@@ -1,0 +1,9 @@
+/* Dark Mode Theme */
+.darkMode {
+  background-color: #121212;
+  color: white;
+}
+
+.darkMode #mainIco {
+  filter: none;
+}

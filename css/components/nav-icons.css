@@ -1,0 +1,38 @@
+/* Navigation Icons */
+#nav {
+  text-align: center;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+#nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#nav img {
+  width: 48px;
+  height: 48px;
+  margin: 0 1rem;
+  transition: transform 0.2s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#nav img:hover {
+  transform: scale(1.1);
+}
+
+/* Theme-specific icon filters */
+.darkMode #mainIco {
+  filter: invert(100%);
+}
+
+.darkPurpleMode #mainIco {
+  filter: invert(88%) sepia(16%) saturate(177%) hue-rotate(202deg) brightness(103%) contrast(96%);
+}
+
+.babyBlueMode #mainIco {
+  filter: invert(32%) sepia(29%) saturate(1096%) hue-rotate(182deg) brightness(94%) contrast(89%);
+}

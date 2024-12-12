@@ -1,0 +1,41 @@
+/* Dark Purple Theme */
+.darkPurpleMode {
+  background-color: #1a1625;
+  color: #e4d5f9;
+}
+
+.darkPurpleMode .settings-section {
+  background: #251b35;
+}
+
+.darkPurpleMode #hr {
+  border-color: #6b4d9c;
+}
+
+.darkPurpleMode #theme-select {
+  background: #1a1625;
+  color: #e4d5f9;
+  border-color: #6b4d9c;
+}
+
+.darkPurpleMode #theme-select:disabled {
+  background: #15111e;
+  color: #9c89b8;
+  border-color: #4a3569;
+}
+
+.darkPurpleMode #mainIco {
+  filter: none;
+}
+
+.darkPurpleMode nav a:hover {
+  color: #b088f9;
+}
+
+.darkPurpleMode .slider {
+  background-color: #4a3569;
+}
+
+.darkPurpleMode input:checked + .slider {
+  background-color: #6b4d9c;
+}
